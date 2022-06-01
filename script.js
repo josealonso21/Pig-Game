@@ -53,7 +53,7 @@ btnRoll.addEventListener("click", function () {
 
     // 2. Display dice
     diceEl.classList.remove("hidden");
-    diceEl.src = `images/dice-${dice}.png`;
+    diceEl.src = `dice-${dice}.png`;
 
     // 3. Change current number
     if (dice !== 1) {
